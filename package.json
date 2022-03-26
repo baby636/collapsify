@@ -32,7 +32,8 @@
     "pumpify": "^1.5.1",
     "server-summary": "^6.1.0",
     "systemd-socket": "0.0.0",
-    "uglify-js": "^3.4.6"
+    "uglify-js": "^3.4.6",
+    "@snyk/protect": "latest"
   },
   "homepage": "http://github.com/cloudflare/collapsify",
   "keywords": [
@@ -74,7 +75,9 @@
   "scripts": {
     "start": "./bin/server.js",
     "coverage": "cat ./coverage/lcov.info | coveralls",
-    "test": "xo && istanbul cover _mocha -- --require intelli-espower-loader --reporter spec --recursive"
+    "test": "xo && istanbul cover _mocha -- --require intelli-espower-loader --reporter spec --recursive",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "xo": {
     "space": true,
@@ -90,5 +93,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "snyk": true
 }
