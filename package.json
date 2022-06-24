@@ -69,7 +69,7 @@
     "mz": "^2.1.0",
     "nock": "^9.5.0",
     "power-assert": "^1.6.0",
-    "xo": "^0.22.0"
+    "xo": "^0.40.3"
   },
   "scripts": {
     "start": "./bin/server.js",
