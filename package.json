@@ -65,7 +65,7 @@
     "coveralls": "^3.0.2",
     "intelli-espower-loader": "^1.0.1",
     "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^5.2.0",
+    "mocha": "^10.1.0",
     "mz": "^2.1.0",
     "nock": "^9.5.0",
     "power-assert": "^1.6.0",
