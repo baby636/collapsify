@@ -21,7 +21,7 @@
     "cssnano": "^4.0.5",
     "got": "^9.0.0",
     "http-ndjson": "^3.1.0",
-    "husky": "^1.0.0-rc.13",
+    "husky": "^4.0.0",
     "lint-staged": "^7.2.0",
     "minimist": "^1.1.0",
     "ndjson-logrus": "^1.1.0",
@@ -67,9 +67,9 @@
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^5.2.0",
     "mz": "^2.1.0",
-    "nock": "^9.5.0",
+    "nock": "^11.0.0",
     "power-assert": "^1.6.0",
-    "xo": "^0.22.0"
+    "xo": "^0.41.0"
   },
   "scripts": {
     "start": "./bin/server.js",
